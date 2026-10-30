@@ -211,7 +211,7 @@ def head(title, desc, path, extra_ld=""):
 <meta name="theme-color" content="{THEME}">{fav}
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Onest:wght@400;500;600;700&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="/assets/css/site.css?v=1">
+<link rel="stylesheet" href="/assets/css/site.css?v=2">
 <script type="application/ld+json">{json.dumps(biz)}</script>{extra_ld}
 </head><body>'''
 
@@ -226,7 +226,7 @@ def crumbs_ld(name, slug):
     return f'<script type="application/ld+json">{json.dumps(d)}</script>'
 
 def tail():
-    return '<script src="/assets/js/site.js?v=1" defer></script></body></html>'
+    return '<script src="/assets/js/site.js?v=2" defer></script></body></html>'
 
 def faq_list(faqs):
     return "".join(f'''<details class="faq" data-reveal><summary><span>{e(f["q"])}</span><i>{ICON["plus"]}</i></summary><div class="faq__a"><p>{e(f["a"])}</p></div></details>''' for f in faqs)
@@ -263,7 +263,7 @@ def home():
 
     why = "".join(f'<article class="why" data-reveal style="--d:{i}" data-glow><span class="why__ico">{ICON[WHY_ICONS[i%6]]}</span><h3>{e(w["title"])}</h3><p>{e(w["text"])}</p></article>' for i, w in enumerate(H["whyUs"]))
     steps = "".join(f'<li class="step" data-reveal><span class="step__n">{i+1}</span><div><h3>{e(p["title"])}</h3><p>{e(p["text"])}</p></div></li>' for i, p in enumerate(H["process"]))
-    reel = "".join(f'<figure class="reel__item"><div class="reel__img">{img(n, t + " garage door style")}</div><figcaption><b>{e(t)}</b><span>{e(c)}</span></figcaption></figure>' for n, t, c in GALLERY)
+    reel = "".join(f'<figure class="reel__item"><div class="reel__img"><img src="/images/{n}.webp" alt="{e(t)} garage door style" decoding="async"></div><figcaption><b>{e(t)}</b><span>{e(c)}</span></figcaption></figure>' for n, t, c in GALLERY)
 
     seasons_tabs = "".join(f'<button type="button" role="tab" class="season__tab{" is-on" if i==0 else ""}" aria-selected="{"true" if i==0 else "false"}" data-season="{i}">{ICON[SEASON[s["label"]][0]]}<span>{e(s["label"])}</span></button>' for i, s in enumerate(H["seasons"]))
     seasons_panes = "".join(f'''<div class="season__pane{" is-on" if i==0 else ""}" role="tabpanel" data-pane="{i}"><div class="season__img">{img(SEASON[s["label"]][1], s["label"] + " in Elm Grove")}</div><div class="season__txt"><p class="season__lbl">{e(s["label"])}</p><h3>{e(s["title"])}</h3><p>{e(s["text"])}</p></div></div>''' for i, s in enumerate(H["seasons"]))

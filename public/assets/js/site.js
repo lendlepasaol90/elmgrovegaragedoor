@@ -121,9 +121,9 @@
     branches.forEach(b => { const r = b.getBoundingClientRect(); const t = Math.min(1, Math.max(0, (vh() * .75 - r.top) / r.height)); b.style.setProperty('--p', t); });
     reels.forEach(rl => {
       if (innerWidth <= 720) return;
-      const r = rl.getBoundingClientRect(), track = rl.querySelector('.reel__track');
-      const total = rl.offsetHeight - vh(), t = Math.min(1, Math.max(0, -r.top / total));
-      const dist = track.scrollWidth - innerWidth + 40;
+      const track = rl.querySelector('.reel__track'), dist = Math.max(0, track.scrollWidth - innerWidth + 40);
+      const want = dist + vh(); if (Math.abs(rl.offsetHeight - want) > 4) rl.style.height = want + 'px';
+      const r = rl.getBoundingClientRect(), total = Math.max(1, rl.offsetHeight - vh()), t = Math.min(1, Math.max(0, (90 - r.top) / total));
       track.style.transform = `translate3d(${-t * dist}px,0,0)`;
     });
     stackCards.forEach((c, i) => {
