@@ -21,10 +21,12 @@ SITE = {
     "city": "Elm Grove", "state": "WI", "zip": "53122",
     "hours": "Mon–Sat 7am–7pm",
     "form_endpoint": "",   # e.g. https://formspree.io/f/xxxx  (blank = on-page confirmation only)
-    "logo": "",            # e.g. /images/logo.webp (2x at /images/logo@2x.webp). Blank = built-in wordmark
+    "logo": "/images/logo.webp",  # 2x version at /images/logo@2x.webp (blank = built-in wordmark)
     "logo_footer": "",     # optional light version for the dark footer
-    "favicon": False,      # set True once favicon.ico, favicon-32.png, apple-touch-icon.png, icon-192/512.png are in /public
+    "favicon": True,       # set True once favicon.ico, favicon-32.png, apple-touch-icon.png, icon-192/512.png are in /public
 }
+from PIL import Image as _I
+LOGO_RATIO = (lambda im: im.width / im.height)(_I.open(ROOT / "public/images/logo.webp"))
 HOME_TITLE = "Same Day Garage Door Repair & Installation in Elm Grove, WI"
 THEME = "#557f66"
 
@@ -126,7 +128,7 @@ def logo(footer=False):
     src = SITE["logo_footer"] if footer and SITE["logo_footer"] else SITE["logo"]
     if src:
         cls = "logo logo--img logo--footer" if footer else "logo logo--img"
-        return f'<a class="{cls}" href="/" aria-label="{e(SITE["name"])} home"><img src="{src}" srcset="{src} 1x, {src.replace(".webp", "@2x.webp")} 2x" alt="{e(SITE["name"])} logo" width="240" height="96" class="logo__img"></a>'
+        return f'<a class="{cls}" href="/" aria-label="{e(SITE["name"])} home"><img src="{src}" srcset="{src} 1x, {src.replace(".webp", "@2x.webp")} 2x" alt="{e(SITE["name"])} logo" width="{round(96*LOGO_RATIO)}" height="96" class="logo__img"></a>'
     return f'<a class="logo" href="/" aria-label="{e(SITE["name"])} home">{MARK}<span class="logo__txt"><b>Elm Grove</b><small>Garage Door</small></span></a>'
 
 # ---------------------------------------------------------------- chrome
@@ -211,7 +213,7 @@ def head(title, desc, path, extra_ld=""):
 <meta name="theme-color" content="{THEME}">{fav}
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Onest:wght@400;500;600;700&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="/assets/css/site.css?v=2">
+<link rel="stylesheet" href="/assets/css/site.css?v=3">
 <script type="application/ld+json">{json.dumps(biz)}</script>{extra_ld}
 </head><body>'''
 

@@ -41,7 +41,8 @@ p{margin:0 0 1.05em}
 .logo__txt{display:flex;flex-direction:column;line-height:1}
 .logo__txt b{font:400 26px/1 var(--serif);color:var(--grove)}
 .logo__txt small{font-size:11px;letter-spacing:.24em;text-transform:uppercase;color:var(--elm-d);font-weight:600;margin-top:4px}
-.logo__img{height:56px;width:auto}
+.logo__img{height:66px;width:auto}
+.header__in{min-height:86px}
 .header nav{margin-left:auto}
 .nav{display:flex;align-items:center;gap:4px;list-style:none;margin:0;padding:0}
 .nav>li>a,.nav>li>button{display:inline-flex;align-items:center;gap:6px;padding:10px 14px;border-radius:999px;text-decoration:none;font:500 15px var(--sans);color:var(--ink);background:none;border:0;cursor:pointer;transition:background .25s,color .25s}
@@ -407,7 +408,7 @@ h3{font:600 20px/1.3 var(--sans);letter-spacing:-.01em;margin-bottom:8px}
 .footer__grid{position:relative;z-index:1;display:grid;grid-template-columns:1.3fr 1fr 1fr 1fr 1.5fr;gap:36px}
 .footer .logo__txt b{color:#fff}
 .footer .logo__txt small{color:var(--elm-l)}
-.logo--footer .logo__img{background:#fff;padding:8px 12px;border-radius:14px}
+.logo--footer .logo__img{height:92px;background:#fff;padding:10px 16px;border-radius:18px;box-sizing:content-box}
 .footer__brand p{margin:18px 0}
 .footer__contact{list-style:none;padding:0;margin:0;display:grid;gap:10px}
 .footer__contact li{display:flex;gap:10px;align-items:center}
@@ -467,6 +468,7 @@ h3{font:600 20px/1.3 var(--sans);letter-spacing:-.01em;margin-bottom:8px}
   .header__in{min-height:68px}
   .header nav{inset:108px 0 0}
   .logo .mark{width:40px;height:40px}.logo__txt b{font-size:22px}
+  .logo__img{height:52px}
   .sec{padding:84px 0}
   .hero{padding:44px 0 80px}
   .hero__facts{grid-template-columns:1fr}

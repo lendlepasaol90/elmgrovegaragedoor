@@ -24,8 +24,8 @@ To preview locally: `cd public && python3 -m http.server 8000`.
 
 1. **Phone**: set `SITE["phone"]` and `SITE["phone_href"]` in `build.py` (currently the placeholder `(262) 000-0000`). Confirm `SITE["hours"]` and `SITE["email"]`.
 2. **Quote form**: set `SITE["form_endpoint"]` to a Formspree, Web3Forms or Worker URL. Until then the form validates and shows a thank-you message, but nothing is delivered.
-3. **Logo**: put `logo.webp` (+ `logo@2x.webp`) in `public/images/` and set `SITE["logo"] = "/images/logo.webp"`. Until then a built-in elm-tree wordmark shows.
-4. **Favicon**: add `favicon.ico`, `favicon-32.png`, `apple-touch-icon.png`, `icon-192.png`, `icon-512.png` to `public/` and set `SITE["favicon"] = True`.
+3. **Logo**: done. `public/images/logo.webp` (+ `logo@2x.webp`, and `logo.png` for other uses) with the outer white removed; the footer shows it on a white card.
+4. **Favicon**: done. `favicon.ico`, `favicon-32.png`, `apple-touch-icon.png`, `icon-192.png` and `icon-512.png` are in `public/`.
 5. Run `python3 build.py` after any change.
 
 ## Design: "Canopy"
