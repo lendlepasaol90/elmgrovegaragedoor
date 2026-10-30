@@ -1,0 +1,247 @@
+{
+ "heroKicker": "Local garage door service",
+ "heroIntro": "When a garage door sticks halfway, snaps a spring or refuses to answer the remote, the whole morning falls apart. Elm Grove Garage Door repairs, replaces and installs residential garage doors and openers across the village and nearby Waukesha County suburbs. Call early and we can often be there the same day, with common parts on the truck and a clear price before any work begins.",
+ "intro": {
+  "eyebrow": "Your neighborhood door crew",
+  "h2a": "Garage door help built around",
+  "h2b": "Elm Grove homes",
+  "paragraphs": [
+   "Most garages in Elm Grove were built during the boom that followed World War II, when ranches, split-levels and Colonials went up on big wooded lots between Bluemound Road and North Avenue. Many of those garages have seen three or four doors and twice as many openers. Others belong to newer custom homes with heavy insulated doors and wide three-car bays. We work on all of it. A good repair starts with understanding what the door was built to do, how it has been adjusted over the years, and what the weather here has done to its hardware. That is the lens we bring to every driveway, from the streets near the village center to the cul-de-sacs off Pilgrim Parkway.",
+   "Our work covers the full system: torsion and extension springs, lift cables, drums, rollers, hinges, tracks, panels, weather seals and openers. Plenty of calls start with one symptom and end with a different cause. A door that groans may need rollers, or it may be fighting a spring that has lost its strength. A remote that works only some of the time might be a dying battery, a misaligned safety sensor or a worn logic board. We trace the problem back to its source, explain what we found in plain language, and give you the price before we touch a wrench.",
+   "Safety matters to us because garage doors are the heaviest moving object in most houses. A typical two-car door can weigh well over a hundred pounds, and the springs holding it up store enough energy to break bones. That is why we tell homeowners straight: spring, cable and drum work belongs to trained technicians with the right winding bars and clamps. What you can do safely is watch, listen and call. Every visit ends with a check of balance, travel limits, the photo eye sensors and the auto-reverse, so the door leaves safer than we found it.",
+   "Being local means we know the roads, the seasons and the houses. We know how fast leaves from the oaks and maples along Juneau Boulevard pile up against bottom seals, how road salt from a February storm eats into track bolts, and how a damp, shaded garage can swell a wood door until it binds. We also know that people here keep their homes for a long time, so we favor repairs that last over quick fixes that bring us back next winter. When replacement makes more sense, we say so and walk you through the options without pressure."
+  ]
+ },
+ "servicesLead": "From a snapped spring on a January morning to a full new door and opener, we handle the jobs Elm Grove homeowners call about most. Start with the problem you are seeing below, or browse every service to learn how we diagnose it, what affects cost and what to expect on the day.",
+ "problems": [
+  {
+   "label": "Broken spring",
+   "title": "A loud bang, then nothing",
+   "text": "If you heard a sharp crack from the garage and now the door will not lift, a torsion spring has almost certainly broken. Springs wear out after a set number of cycles, and cold snaps often finish off a tired one. Do not keep pressing the remote, since the opener can strain or bend the top panel. Leave the door closed and call us. We replace springs sized to your door's weight and rebalance it properly.",
+   "slug": "broken-garage-door-springs-repair"
+  },
+  {
+   "label": "Opener trouble",
+   "title": "Remote or keypad stopped working",
+   "text": "An opener that hums but does not move, reverses for no reason, or lifts a few inches and stops is telling you something specific. Common culprits include stripped drive gears, failed logic boards, misaligned photo eyes and travel limits knocked out of adjustment. We test the opener separately from the door so we fix the true cause, and we will tell you honestly when an older unit is no longer worth repairing.",
+   "slug": "garage-door-opener-repair"
+  },
+  {
+   "label": "Cable off",
+   "title": "Door hanging crooked or loose",
+   "text": "A door that sits lopsided, with one side higher than the other, usually has a frayed, slipped or snapped lift cable. Rust from salty winter slush often weakens the bottom brackets where cables attach. A crooked door can jump its track and fall, so stop using it and keep cars and kids clear. We replace both cables as a matched pair, reseat the drums and check the tracks for damage.",
+   "slug": "garage-door-cable-repair"
+  },
+  {
+   "label": "Urgent help",
+   "title": "Stuck open or car trapped",
+   "text": "A door stuck open overnight leaves your home exposed, and a door stuck shut can strand your car before work or school. Call early in the day and we can often reach Elm Grove within hours. Our trucks carry common springs, cables, rollers and opener parts, so many problems get solved in one visit. You will hear the price before we start, even on an urgent call.",
+   "slug": "same-day-garage-door-repair-service"
+  }
+ ],
+ "fullwidth": {
+  "eyebrow": "Trees, snow and four real seasons",
+  "title": "Elm Grove's tall trees ask more of your door",
+  "text": "Elm Grove has been a Tree City USA community since 1989, and it shows in the canopy over nearly every driveway. That shade is beautiful, but it keeps garages damp, drops sap and seed pods on panels, and buries bottom seals under a thick layer of leaves each fall. Then winter brings subzero nights, about 45 inches of snow and plenty of road salt. Freeze and thaw cycles stiffen grease, crack weather stripping and test springs. We plan our repairs around all four seasons here, not just the mild ones."
+ },
+ "whyUs": [
+  {
+   "title": "Price before work",
+   "text": "You will know the cost before any repair begins. After we inspect the door and opener, we explain what is wrong, what it takes to fix, and what it will cost. If there is more than one reasonable path, such as repairing an older opener or replacing it, we lay out both so you can decide without feeling rushed."
+  },
+  {
+   "title": "Same day when possible",
+   "text": "Garage door problems rarely wait for a convenient moment. When you call early in the day, we can often reach your Elm Grove home the same afternoon. Being close by helps, since we are not crossing half the metro area to get to you. We will give you an honest arrival window and keep you posted if anything changes."
+  },
+  {
+   "title": "Parts on the truck",
+   "text": "We stock our trucks with the springs, cables, rollers, hinges, bearings, sensors and opener parts that local doors need most often. That means fewer second trips and fewer days with a door that will not open. For unusual sizes or specialty hardware, we explain the lead time up front and make the door safe in the meantime."
+  },
+  {
+   "title": "Safety checks, every visit",
+   "text": "No job is done until the door is balanced and the safety systems are tested. We check that the door holds steady halfway up, confirm the photo eyes are aligned, and test the auto-reverse with an obstruction. Those checks matter in homes with kids, pets and cars, and they often catch small problems early."
+  },
+  {
+   "title": "Straight talk, no pressure",
+   "text": "Some doors need a single roller. Others are near the end of their useful life. We tell you which situation you are in, explain why, and let you make the call. If a repair will hold up well, we recommend the repair. If replacement will save you money and frustration over the next few winters, we will explain that too."
+  },
+  {
+   "title": "Clean, careful work",
+   "text": "We treat your garage like part of your home, because it is. Tools stay organized, old parts leave with us, and we sweep up before we go. On new door installs we haul away the old door and packaging. You should come home to a working door and a garage that looks the way you left it."
+  }
+ ],
+ "process": [
+  {
+   "title": "Tell us what happened",
+   "text": "Call and describe what the door is doing: the noise you heard, where it stopped, whether the opener lights blink. A few quick questions help us bring the right parts. We will also tell you what to avoid in the meantime, like running the opener against a broken spring."
+  },
+  {
+   "title": "On-site inspection",
+   "text": "At your home we look at the whole system, not only the obvious part. We check springs, cables, drums, rollers, hinges, tracks, seals and the opener, then test balance and travel. That full look is how we catch the worn part that caused the broken one."
+  },
+  {
+   "title": "Clear quote first",
+   "text": "Before any work starts, we explain what we found and give you the price. If there are options, such as repairing versus replacing an opener or standard versus high cycle springs, we explain the tradeoffs in plain language so the choice is yours to make."
+  },
+  {
+   "title": "Repair and test",
+   "text": "We complete the repair, lubricate moving parts, and adjust the door and opener so they work together. Then we run the door through several cycles and test the safety sensors and auto-reverse. We clean up, take the old parts, and show you how everything works."
+  }
+ ],
+ "doors": {
+  "h2a": "New garage doors that suit",
+  "h2b": "your house and our winters",
+  "paragraphs": [
+   "A new garage door changes how your home looks from the street more than almost any other single project. In Elm Grove, where many houses are set back on long, tree-lined driveways, the door is often the first thing people see. We install steel, wood, composite, aluminum and glass doors in a range of styles, from simple raised panel designs that suit a 1960s ranch to carriage house doors that match a rebuilt custom home. We measure carefully, check the framing and headroom, and recommend a door that fits the opening and the way you use the garage.",
+   "Insulation deserves real thought here. Many local garages share a wall with a kitchen or sit beneath a bedroom, and a thin uninsulated door lets winter cold pour into those rooms. An insulated steel door with good perimeter seals keeps the garage noticeably warmer, quiets the door in operation and stands up better to dents from bikes and basketballs. For detached garages used only for storage, a lighter door may be fine. We will explain the difference in R value, panel construction and weight so you can match the door to your needs.",
+   "Installation day follows a clear plan. We remove and haul away the old door, inspect the opening, install new tracks, springs sized to the new door's weight, rollers, cables and seals, and then adjust everything for smooth, quiet travel. If you are keeping your current opener, we confirm it can handle the new door safely. Before we leave, we test balance, the safety sensors and the auto-reverse, and we walk you through basic care so the door looks and works well for years."
+  ],
+  "bullets": [
+   "Insulated steel and wood doors",
+   "Carriage house and modern styles",
+   "Windows and decorative hardware",
+   "Springs matched to door weight",
+   "Old door hauled away",
+   "Full balance and safety test"
+  ]
+ },
+ "openers": {
+  "h2a": "Openers that start reliably",
+  "h2b": "on the coldest mornings",
+  "paragraphs": [
+   "Cold is hard on openers. Grease thickens, plastic gears get brittle, and a door that is even slightly out of balance makes the motor work much harder on a subzero morning. We repair and install chain drive, belt drive and wall mounted jackshaft openers, and we set them up properly for the door they are lifting. That includes force settings, travel limits, photo eye alignment and remote programming, so the opener works with the door instead of against it.",
+   "If your opener is older, noisy, or missing modern safety features, replacement may be the better value. Belt drives are a good choice for garages under bedrooms. Jackshaft units free up ceiling space in garages with storage racks or high ceilings. Many newer openers offer battery backup for power outages and smartphone control, which is handy when you want to check whether you left the door open after driving down Watertown Plank Road. We help you choose and install it cleanly."
+  ],
+  "bullets": [
+   "Chain, belt and jackshaft drives",
+   "Battery backup options",
+   "Smartphone and keypad control",
+   "Photo eye alignment and testing",
+   "Remote and keypad programming",
+   "Quiet setup for attached garages"
+  ]
+ },
+ "seasons": [
+  {
+   "label": "Winter",
+   "title": "Cold snaps break tired springs",
+   "text": "Winter is our busiest season for a reason. Steel springs lose flexibility in deep cold, and a spring near the end of its life often breaks on the first subzero morning. Ice can also freeze the bottom seal to the floor. If the door will not budge, do not force it with the opener. Gently free the seal, keep the floor clear of slush, and call us if the door feels heavy or uneven."
+  },
+  {
+   "label": "Spring",
+   "title": "Thaw, rust and salt cleanup",
+   "text": "As snow melts, months of salty slush show their effects. Bottom brackets, track bolts and the lowest panel take the worst of it, and corrosion there can weaken the points where cables attach. Spring is a good time to rinse the bottom of the door, look for rust or flaking paint, and schedule a tune up before small problems grow. Check that weather stripping did not crack over the winter."
+  },
+  {
+   "label": "Summer",
+   "title": "Humidity, heat and swelling doors",
+   "text": "Humid summers and heavy shade keep many Elm Grove garages damp. Wood doors can swell and rub against the stops, and moisture encourages rust on hinges and rollers. Afternoon sun on a dark steel door can make panels expand slightly, which sometimes trips sensitive opener settings. Summer is also when thunderstorms knock out power, so it pays to know how your manual release works before you need it."
+  },
+  {
+   "label": "Fall",
+   "title": "Leaves, debris and winter prep",
+   "text": "Fall leaf drop is serious business under Elm Grove's oaks and maples. Wet leaves pack into tracks, clog the bottom seal and block the photo eyes, which can make the door reverse without warning. Sweep the threshold and track bottoms regularly. Late fall is the ideal time for a tune up, since we can replace worn rollers and seals and check spring balance before the first hard freeze arrives."
+  }
+ ],
+ "costFactors": {
+  "intro": "We do not post flat prices, because the honest answer depends on your door, your opener and what actually failed. What we can do is explain the factors that drive cost, so the quote we give you after inspecting the door makes sense. Here are the things that matter most on a typical Elm Grove repair or installation.",
+  "items": [
+   {
+    "title": "Door size and weight",
+    "text": "A heavy insulated two-car or three-car door needs stronger springs, sturdier cables and sometimes heavier tracks than a single-car door. Weight also determines spring size, so we weigh and measure before ordering anything. Larger and heavier doors generally cost more to repair or replace, though they often last longer too."
+   },
+   {
+    "title": "Which parts failed",
+    "text": "A single bent hinge is a quick fix. A broken spring that caused a cable to slip and a panel to crease is a larger job. We look for the root cause so we can address related wear at the same visit. Fixing connected parts together usually costs less than separate trips."
+   },
+   {
+    "title": "Spring type and cycle life",
+    "text": "Standard springs are rated for a certain number of open and close cycles. High cycle springs cost more up front but last much longer, which makes sense for households that use the garage as the main entrance. We explain how many times a day you likely run the door and what that means."
+   },
+   {
+    "title": "Opener model and features",
+    "text": "Repairing an opener depends on part availability and the age of the unit. For replacements, drive type, horsepower, battery backup and smart features all affect the price. A quiet belt drive with backup power costs more than a basic chain drive, and we help you decide what is worth it."
+   },
+   {
+    "title": "Material and style choices",
+    "text": "For new doors, material, insulation level, windows, decorative hardware and custom colors all shape the final cost. A plain steel raised panel door is the most economical, while wood and custom carriage house designs cost more. Unusual opening sizes or framing repairs can also add to the project."
+   }
+  ]
+ },
+ "maintenance": {
+  "intro": "A few minutes of attention each season keeps a garage door quieter, safer and longer lasting. None of these tasks involve the springs, cables or drums, which stay under heavy tension and should only be handled by a trained technician. These are simple checks Elm Grove homeowners can do safely from the floor, with the door closed and the opener unplugged when needed.",
+  "bullets": [
+   "Watch and listen during a full cycle",
+   "Test auto-reverse with a board on the floor",
+   "Wipe photo eye lenses and check the lights",
+   "Clear leaves and grit from track bottoms",
+   "Lubricate hinges and roller bearings lightly",
+   "Inspect the bottom seal for cracks or gaps",
+   "Rinse road salt off the lower panel",
+   "Replace remote and keypad batteries yearly"
+  ],
+  "outro": "If something looks off, such as a frayed cable, a gap in a spring coil or a door that drifts when stopped halfway, stop using the opener and call us. Catching wear early usually means a smaller repair and keeps a minor issue from turning into a door stuck at the worst possible moment."
+ },
+ "area": {
+  "paragraphs": [
+   "We are based around Elm Grove and spend most of our days in the village and the communities that border it. That covers everything from the older homes near Watertown Plank Road and the Sunset Playhouse to the larger lots near Elm Grove Village Park, Underwood Creek and the Elmbrook schools. Being close means shorter drive times, which is a big part of how we manage same day service when you call early. It also means we see the same housing styles and the same weather wear again and again, so we know what to look for.",
+   "Beyond the village, we serve homeowners throughout eastern Waukesha County and Milwaukee's western suburbs. Brookfield wraps around much of Elm Grove, and we are regularly in Wauwatosa, New Berlin, West Allis and Pewaukee as well. We also travel north to Menomonee Falls and Butler and south toward Greenfield and Hales Corners. If you are not sure whether we reach your street, just call and ask. We will give you a straight answer and an honest arrival estimate."
+  ],
+  "places": [
+   "Elm Grove",
+   "Brookfield",
+   "Wauwatosa",
+   "West Allis",
+   "New Berlin",
+   "Menomonee Falls",
+   "Butler",
+   "Pewaukee",
+   "Waukesha",
+   "Milwaukee West Side",
+   "Greenfield",
+   "Hales Corners"
+  ]
+ },
+ "faqs": [
+  {
+   "q": "Can you really come the same day?",
+   "a": "Often, yes. When you call early in the day, we can usually reach Elm Grove homes that afternoon, especially for urgent problems like a broken spring or a door stuck open. Our trucks carry common springs, cables, rollers and opener parts, so many repairs are finished in a single visit. On very busy days, such as the first deep freeze of winter, we will give you an honest arrival window and keep you updated."
+  },
+  {
+   "q": "Is it safe to open my door with a broken spring?",
+   "a": "No. The springs do most of the lifting, and without them the door is dead weight. Running the opener can strip its gears or bend the top panel, and lifting by hand risks a serious injury if the door drops. Leave the door closed if you can. If your car is trapped inside, call us and we will prioritize getting the door safely open and repaired as quickly as we can."
+  },
+  {
+   "q": "Should I repair my garage door or replace it?",
+   "a": "It depends on the condition of the panels, the age of the door, and what you want from it. A solid door with a broken spring or worn rollers is usually worth repairing. A door with rusted bottom sections, cracked panels, no insulation or repeated failures may cost more to keep patching than to replace. We inspect the whole door and give you an honest recommendation, along with the reasoning behind it, so you can decide."
+  },
+  {
+   "q": "How long do garage door springs last?",
+   "a": "Springs are rated by cycles, with one cycle being a full open and close. Standard springs often last several years in a typical household, but heavy daily use shortens that a lot. In Elm Grove, where many families use the garage as their main door, springs can wear out faster than people expect. High cycle springs cost more but last longer, and replacing both springs together keeps the door balanced and avoids a second visit."
+  },
+  {
+   "q": "Why does my door reverse before it closes?",
+   "a": "The most common reason is the safety sensors near the floor. If a leaf, spider web or bumped bracket blocks or misaligns the photo eyes, the opener reverses as a precaution. Wipe the lenses and check that both indicator lights are steady. Other causes include ice or debris on the floor, a binding track, or force settings that need adjustment. If cleaning the sensors does not help, we can diagnose it quickly."
+  },
+  {
+   "q": "Do you install new garage door openers?",
+   "a": "Yes. We install chain drive, belt drive and wall mounted jackshaft openers, and we set each one up for the specific door it will lift. That includes mounting, force and travel adjustments, photo eye alignment, remote and keypad programming, and a full safety test. If your door is out of balance or has worn parts, we will point that out first, since a new opener should not be fighting a heavy door."
+  },
+  {
+   "q": "What garage door works best in Wisconsin weather?",
+   "a": "For most attached garages, an insulated steel door with a polyurethane or polystyrene core and good perimeter seals handles our winters well. It keeps the garage warmer, resists dents and needs little upkeep. Wood doors look beautiful on older Elm Grove homes but need regular finishing, especially under shady, damp trees. Composite doors offer a wood look with less maintenance. We help you weigh appearance, insulation, upkeep and budget."
+  },
+  {
+   "q": "Can I fix garage door cables myself?",
+   "a": "We strongly advise against it. Lift cables are connected to springs and drums under heavy tension, and releasing that tension without the right tools and training can cause severe injuries. What you can safely do is stop using the door, keep people and cars away from it, and call for service. We replace cables in matched pairs, reseat them on the drums and confirm the door is level and balanced before we leave."
+  },
+  {
+   "q": "How much will my repair cost?",
+   "a": "We do not quote prices without seeing the door, because the cost depends on its size and weight, which parts failed, the type of springs or opener involved, and whether related wear needs attention. After we inspect it, we explain what we found and give you a clear price before any work starts. There are no surprises at the end. If you prefer to think it over, that is completely fine."
+  }
+ ],
+ "cta": {
+  "title": "Get your garage door working again",
+  "text": "Call Elm Grove Garage Door for same day repairs when you reach us early, honest quotes before work starts, and careful installations of new doors and openers across Elm Grove and nearby communities."
+ }
+}
