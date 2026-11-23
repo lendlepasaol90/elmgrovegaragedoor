@@ -228,7 +228,7 @@ def crumbs_ld(name, slug):
     return f'<script type="application/ld+json">{json.dumps(d)}</script>'
 
 def tail():
-    return '<script src="/assets/js/site.js?v=2" defer></script></body></html>'
+    return '<script src="/assets/js/site.js?v=2" defer></script><script src="/formsubmit.js" data-site="Elm Grove Garage Door" defer></script></body></html>'
 
 def faq_list(faqs):
     return "".join(f'''<details class="faq" data-reveal><summary><span>{e(f["q"])}</span><i>{ICON["plus"]}</i></summary><div class="faq__a"><p>{e(f["a"])}</p></div></details>''' for f in faqs)
