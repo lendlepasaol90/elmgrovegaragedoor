@@ -50,6 +50,24 @@
     if (nav.classList.contains('is-open')) { burger.click(); }
   }));
 
+  // before / after slider
+  $$('[data-ba]').forEach(ba => {
+    const range = $('[data-ba-range]', ba);
+    let dragging = false;
+    const set = v => { v = Math.max(0, Math.min(100, v)); ba.style.setProperty('--pos', v + '%'); if (range) range.value = Math.round(v); };
+    const fromEvent = ev => { const r = ba.getBoundingClientRect(); set((ev.clientX - r.left) / r.width * 100); };
+    ba.addEventListener('pointerdown', ev => {
+      if (ev.button) return;
+      dragging = true; ba.classList.add('is-dragging');
+      try { ba.setPointerCapture(ev.pointerId); } catch (err) {}
+      fromEvent(ev);
+    });
+    ba.addEventListener('pointermove', ev => { if (dragging) fromEvent(ev); });
+    const stop = () => { dragging = false; ba.classList.remove('is-dragging'); };
+    ba.addEventListener('pointerup', stop); ba.addEventListener('pointercancel', stop);
+    if (range) range.addEventListener('input', () => set(+range.value));
+  });
+
   // service filter chips
   $$('.chip').forEach(c => c.addEventListener('click', () => {
     $$('.chip').forEach(x => x.classList.toggle('is-on', x === c));

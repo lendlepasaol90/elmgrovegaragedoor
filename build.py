@@ -213,7 +213,7 @@ def head(title, desc, path, extra_ld=""):
 <meta name="theme-color" content="{THEME}">{fav}
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Onest:wght@400;500;600;700&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="/assets/css/site.css?v=3">
+<link rel="stylesheet" href="/assets/css/site.css?v=4">
 <script type="application/ld+json">{json.dumps(biz)}</script>{extra_ld}
 </head><body>'''
 
@@ -228,7 +228,7 @@ def crumbs_ld(name, slug):
     return f'<script type="application/ld+json">{json.dumps(d)}</script>'
 
 def tail():
-    return '<script src="/assets/js/site.js?v=2" defer></script><script src="/formsubmit.js" data-site="Elm Grove Garage Door" defer></script></body></html>'
+    return '<script src="/assets/js/site.js?v=3" defer></script><script src="/formsubmit.js" data-site="Elm Grove Garage Door" defer></script></body></html>'
 
 def faq_list(faqs):
     return "".join(f'''<details class="faq" data-reveal><summary><span>{e(f["q"])}</span><i>{ICON["plus"]}</i></summary><div class="faq__a"><p>{e(f["a"])}</p></div></details>''' for f in faqs)
@@ -295,6 +295,22 @@ def home():
 </section>
 
 {marquee(["Spring replacement", "Opener repair", "New garage doors", "Cable and drum repair", "Same-day service", "Panel replacement", "Track repair", "Smart openers"])}
+
+<section class="sec ba-sec" aria-labelledby="ba-title">
+<div class="wrap ba-grid">
+<div class="ba-txt">{label("Before & after")}<h2 class="h2" id="ba-title" data-split>See what a new door <em>changes</em></h2>
+<p data-reveal>Drag the handle to compare the old garage door with its replacement on the same home.</p>
+<dl class="ba__notes">
+<div data-reveal><dt>Before</dt><dd>A plain, flat-panel door with no windows. It works, but it reads as one dark slab across the front of the garage and leaves the inside dim.</dd></div>
+<div data-reveal><dt>After</dt><dd>A new recessed-panel door in the same dark bronze, with a row of windows across the top. The garage gets daylight, and the front of the home looks finished.</dd></div>
+</dl></div>
+<div class="ba" data-ba data-reveal style="--pos:50%">
+<figure class="ba__layer"><img src="/images/elm-grove-garage-door-replacement-after.webp" width="846" height="607" alt="After: the garage with a new recessed-panel door and a row of windows" loading="lazy" decoding="async"><figcaption class="ba__tag ba__tag--after" aria-hidden="true">After</figcaption></figure>
+<figure class="ba__layer ba__layer--before"><img src="/images/elm-grove-garage-door-replacement-before.webp" width="623" height="450" alt="Before: the same garage with a plain flat-panel door" loading="lazy" decoding="async"><figcaption class="ba__tag ba__tag--before" aria-hidden="true">Before</figcaption></figure>
+<span class="ba__handle" aria-hidden="true"><i></i></span>
+<input class="ba__range" type="range" min="0" max="100" step="1" value="50" aria-label="Before and after comparison: move left to see more of the new door, right to see more of the old door" data-ba-range>
+</div>
+</div></section>
 
 <section class="sec sec--intro">
 <div class="wrap split split--stick">
