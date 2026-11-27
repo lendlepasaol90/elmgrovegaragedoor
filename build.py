@@ -15,11 +15,15 @@ CONTENT = ROOT / "content"
 SITE = {
     "name": "Elm Grove Garage Door",
     "domain": "https://elmgrovegaragedoor.com",
-    "phone": "(262) 000-0000",          # TODO: replace with the real number
-    "phone_href": "tel:+12620000000",    # TODO: replace with the real number
-    "email": "hello@elmgrovegaragedoor.com",  # TODO: confirm
+    "phone": "(262) 381-2208",
+    "phone_href": "tel:+12623812208",
+    "email": "office@elmgrovegaragedoor.com",
+    "street": "890 Elm Grove Rd #400",
     "city": "Elm Grove", "state": "WI", "zip": "53122",
-    "hours": "Mon–Sat 7am–7pm",
+    "hours": "Mon–Sat 7am–6pm",
+    "owner": "Gareth Brooks",
+    "description": "Elm Grove Garage Door provides residential garage door repair, replacement, and installation services in Elm Grove, WI, Brookfield, Wauwatosa, New Berlin, and surrounding communities. From broken springs and damaged cables to noisy rollers and malfunctioning garage door openers, we diagnose problems and provide practical solutions. We also install insulated garage doors, custom carriage house doors, modern garage doors, and smart garage door openers. Our services emphasize upfront pricing, dependable workmanship, and thorough safety testing. With same-day repairs when available, we help homeowners restore garage door functionality, improve home security, and enhance curb appeal with solutions suited to Wisconsin's changing seasons.",
+    "keywords": ["Elm Grove Garage Door Repair", "Same Day Garage Door Repair in Elm Grove, WI", "Elm Grove Garage Door Contractor", "Garage Door Replacement in Elm Grove, WI", "Elm Grove Garage Door Installation Company"],
     "form_endpoint": "",   # e.g. https://formspree.io/f/xxxx  (blank = on-page confirmation only)
     "logo": "/images/logo.webp",  # 2x version at /images/logo@2x.webp (blank = built-in wordmark)
     "logo_footer": "",     # optional light version for the dark footer
@@ -189,7 +193,7 @@ def footer():
 <footer class="footer">{bg("elm-grove-aerial-autumn", "bgimg bgimg--footer", "0.06")}
 <div class="wrap footer__grid">
 <div class="footer__brand">{logo(True)}<p>Local garage door repair, replacement and opener service for Elm Grove, WI and the surrounding Waukesha County and west Milwaukee suburbs.</p>
-<ul class="footer__contact"><li>{ICON["phone"]}<a href="{SITE["phone_href"]}">{e(SITE["phone"])}</a></li><li>{ICON["mail"]}<a href="mailto:{e(SITE["email"])}">{e(SITE["email"])}</a></li><li>{ICON["clock"]}<span>{e(SITE["hours"])}</span></li><li>{ICON["pin"]}<span>Serving Elm Grove, WI 53122</span></li></ul></div>
+<ul class="footer__contact"><li>{ICON["phone"]}<a href="{SITE["phone_href"]}">{e(SITE["phone"])}</a></li><li>{ICON["mail"]}<a href="mailto:{e(SITE["email"])}">{e(SITE["email"])}</a></li><li>{ICON["clock"]}<span>{e(SITE["hours"])}</span></li><li>{ICON["pin"]}<span>{e(SITE["street"])}<br>{e(SITE["city"])}, {SITE["state"]} {SITE["zip"]}</span></li></ul></div>
 {"".join(cols)}
 <div class="footer__map"><p class="fcol__h">Find us in Elm Grove</p><div class="map">{map_iframe()}</div></div>
 </div>
@@ -203,10 +207,10 @@ def head(title, desc, path, extra_ld=""):
     fav = ('<link rel="icon" href="/favicon.ico" sizes="any"><link rel="icon" type="image/png" sizes="32x32" href="/favicon-32.png">'
            '<link rel="apple-touch-icon" href="/apple-touch-icon.png"><link rel="manifest" href="/site.webmanifest">') if SITE["favicon"] else ""
     biz = {"@context": "https://schema.org", "@type": "HomeAndConstructionBusiness", "name": SITE["name"], "url": SITE["domain"],
-           "telephone": SITE["phone"], "email": SITE["email"], "image": SITE["domain"] + "/images/elm-grove-brick-home-garage-hero.webp",
-           "address": {"@type": "PostalAddress", "addressLocality": SITE["city"], "addressRegion": SITE["state"], "postalCode": SITE["zip"], "addressCountry": "US"},
+           "telephone": SITE["phone"], "email": SITE["email"], "description": SITE["description"], "keywords": ", ".join(SITE["keywords"]), "founder": {"@type": "Person", "name": SITE["owner"]}, "image": SITE["domain"] + "/images/elm-grove-brick-home-garage-hero.webp",
+           "address": {"@type": "PostalAddress", "streetAddress": SITE["street"], "addressLocality": SITE["city"], "addressRegion": SITE["state"], "postalCode": SITE["zip"], "addressCountry": "US"},
            "areaServed": ["Elm Grove, WI", "Brookfield, WI", "Wauwatosa, WI", "New Berlin, WI", "West Allis, WI", "Menomonee Falls, WI"],
-           "openingHours": "Mo-Sa 07:00-19:00"}
+           "openingHours": "Mo-Sa 07:00-18:00"}
     return f'''<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <title>{e(title)}</title><meta name="description" content="{e(desc)}"><link rel="canonical" href="{url}">
 <meta property="og:type" content="website"><meta property="og:title" content="{e(title)}"><meta property="og:description" content="{e(desc)}"><meta property="og:url" content="{url}"><meta property="og:image" content="{SITE["domain"]}/images/elm-grove-brick-home-garage-hero.webp">

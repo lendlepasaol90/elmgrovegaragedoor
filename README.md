@@ -22,7 +22,7 @@ To preview locally: `cd public && python3 -m http.server 8000`.
 
 ## Before going live
 
-1. **Phone**: set `SITE["phone"]` and `SITE["phone_href"]` in `build.py` (currently the placeholder `(262) 000-0000`). Confirm `SITE["hours"]` and `SITE["email"]`.
+1. **Business details**: done. Phone, email, street address, hours, owner, description and keywords are in `SITE` in `build.py`.
 2. **Quote form**: set `SITE["form_endpoint"]` to a Formspree, Web3Forms or Worker URL. Until then the form validates and shows a thank-you message, but nothing is delivered.
 3. **Logo**: done. `public/images/logo.webp` (+ `logo@2x.webp`, and `logo.png` for other uses) with the outer white removed; the footer shows it on a white card.
 4. **Favicon**: done. `favicon.ico`, `favicon-32.png`, `apple-touch-icon.png`, `icon-192.png` and `icon-512.png` are in `public/`.
